@@ -1,0 +1,18 @@
+{
+  "version_note": "2025 snapshot; refresh monthly",
+  "tech_threats": [
+    "GPS/ELD interference: monitor health; keep paper atlas/logs.",
+    "Drone surveillance: scan skies at choke points; vary stops.",
+    "Account takeovers/identity theft: MFA; rotate passwords; verify dispatch via known numbers.",
+    "Fictitious pickups/double-brokering: pre-shared pickup codes; callback verification; photo ID match."
+  ],
+  "insider_risks": [
+    "Collusion potential: vet team pre-run; dual-signature on HV handoffs.",
+    "Leaked schedules: share on a need-to-know window only."
+  ],
+  "comms_hygiene": [
+    "Use end-to-end apps for HV runs; set auto-delete.",
+    "No cargo/routes on open comms (CB/cell).",
+    "Rotate burner numbers; minimize identifiers in chats."
+  ]
+}

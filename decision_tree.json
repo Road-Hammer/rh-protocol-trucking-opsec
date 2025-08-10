@@ -1,0 +1,91 @@
+{
+  "version": "v0.1.3",
+  "step_0_vet_team": {
+    "actions": [
+      "Confirm driver IDs against records",
+      "Call back brokers via known-good numbers",
+      "Report odd behavior to LP before rolling"
+    ],
+    "rationale": "Insider misuse and identity fraud are active vectors."
+  },
+  "step_1_mission_profile": {
+    "cargo_type": [
+      "HV",
+      "SF"
+    ],
+    "threat_level": [
+      "elevated",
+      "low"
+    ],
+    "stealth_need": [
+      "high",
+      "low"
+    ]
+  },
+  "step_2_formation": [
+    "solo",
+    "two_truck",
+    "three_truck"
+  ],
+  "step_3_lane_selector": [
+    {
+      "lane": "North Route",
+      "risk": 2,
+      "best_for": [
+        "HV",
+        "high_stealth",
+        "solo",
+        "two_truck"
+      ],
+      "avoid": [
+        "predictable_timing_near_I90_plate_readers"
+      ]
+    },
+    {
+      "lane": "Central Route",
+      "risk": 3,
+      "best_for": [
+        "HV",
+        "three_truck",
+        "traffic_cover"
+      ],
+      "avoid": [
+        "same_day_of_week_departures",
+        "repeat_fuel_stops"
+      ]
+    },
+    {
+      "lane": "Southern Toll Route",
+      "risk": 4,
+      "best_for": [
+        "overt_runs",
+        "known_high_visibility"
+      ],
+      "avoid": [
+        "stealth_HV",
+        "three_truck_at_toll_plazas"
+      ]
+    },
+    {
+      "lane": "Hybrid Central\u2013South",
+      "risk": 2,
+      "best_for": [
+        "pattern_breaks",
+        "any_formation"
+      ],
+      "avoid": [
+        "overusing_US22_junction"
+      ]
+    }
+  ],
+  "step_4_opsec_protocols": [
+    "Pattern break: do not repeat identical departure time/route.",
+    "Randomize maneuvers within legal limits (lane changes, stops, tail-clear timing).",
+    "Tail-clear at T+15\u201330: exit/loop/back; escalate if persists.",
+    "Pre-brief choke points and alternates.",
+    "Comms discipline: mission-only chatter; assume open comms.",
+    "Emergency plan: pre-identified safe pull-offs and escalation steps.",
+    "Tech check: verify ELD/GPS; watch for jamming; keep paper backups."
+  ],
+  "legal_disclaimer": "Always comply with traffic laws. Historical tactics may not be lawful/advisable today."
+}

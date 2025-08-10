@@ -1,0 +1,26 @@
+[
+  {
+    "name": "North Route",
+    "risk": 2,
+    "formation": "two_truck_or_solo",
+    "notes": "Lower patrol density; higher plate reader density near I-90; vary time windows."
+  },
+  {
+    "name": "Central Route",
+    "risk": 3,
+    "formation": "three_truck_preferred",
+    "notes": "Heavy traffic concealment; watch for DOT blitzes; rotate days/stops."
+  },
+  {
+    "name": "Southern Toll Route",
+    "risk": 4,
+    "formation": "solo_or_two_truck",
+    "notes": "High camera/toll logging; use for overt runs; avoid for stealth."
+  },
+  {
+    "name": "Hybrid Central\u2013South",
+    "risk": 2,
+    "formation": "flexible_any",
+    "notes": "Blend highways to break patterns; avoid overusing US-22."
+  }
+]

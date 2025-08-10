@@ -1,0 +1,46 @@
+[
+  {
+    "id": "columbus_wv_tail_2025",
+    "title": "Columbus \u2192 WV HV Tail (2025)",
+    "type": "unauthorized_tail",
+    "actions": [
+      "Verify escort with dispatch",
+      "Brake-check pulses (safe)",
+      "Escalate via dispatch\u2192customer\u2192LP",
+      "Tail fell back to WV border"
+    ],
+    "lessons": [
+      "Assume follows are hostile until verified",
+      "Keep comms open with dispatch/LP",
+      "Never stop on hostile terms"
+    ]
+  },
+  {
+    "id": "laredo_i10_1990s",
+    "title": "Laredo I-10 Hijack Attempt (1990s)",
+    "type": "rolling_block",
+    "actions": [
+      "Tight convoy discipline",
+      "Counter-maneuvers deny block",
+      "Continue west once disengaged"
+    ],
+    "lessons": [
+      "High-threat corridors demand high alert",
+      "Mixed military skills are a force multiplier"
+    ]
+  },
+  {
+    "id": "hunts_point_1990s",
+    "title": "Hunt\u2019s Point Cut-and-Run (1990s)",
+    "type": "urban_cut_and_run",
+    "actions": [
+      ">10 mph through zone",
+      "5-ft gaps; horns to signal",
+      "Roll lights as a unit when possible (historical/context only)"
+    ],
+    "lessons": [
+      "Urban security mindset",
+      "Cohesion beats reaction after breach"
+    ]
+  }
+]
